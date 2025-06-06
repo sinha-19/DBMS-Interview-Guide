@@ -1,123 +1,85 @@
 # DBMS Interview Guide
 
-Welcome to the **DBMS Interview Guide**! This repository is a comprehensive, structured, and up-to-date resource designed to help you master Database Management System (DBMS) concepts for technical interviews, academic exams, or self-study. Whether you’re preparing for entry-level or advanced roles, this guide covers everything from fundamentals to cutting-edge topics with clear explanations, diagrams, examples, and practice questions.
+Welcome to the **DBMS Interview Guide**!  
+This repository is a comprehensive, structured, and up-to-date resource designed to help you master Database Management System (DBMS) concepts for technical interviews, academic exams, or self-study. Whether you’re preparing for entry-level or advanced roles, this guide covers everything from fundamentals to advanced topics, with clear explanations, diagrams, examples, and practice questions.
 
 ---
 
 ## 📚 Table of Contents
 
-| #  | Topic | Video Link |
-|----|-----------------------------------------------|-----------|
-| 1  | [Introduction](#introduction) | [video](https://www.youtube.com/results?search_query=DBMS+Introduction) |
-| 2  | [Architecture & Models](#architecture--models) | [video](https://www.youtube.com/results?search_query=DBMS+Architecture+and+Models) |
-| 3  | [ER Model](#er-model) | [video](https://www.youtube.com/results?search_query=DBMS+ER+Model+ER+Diagram) |
-| 4  | [Relational Model](#relational-model) | [video](https://www.youtube.com/results?search_query=DBMS+Relational+Model) |
-| 5  | [SQL (DDL, DML, DCL, TCL)](#sql-ddl-dml-dcl-tcl) | [video](https://www.youtube.com/results?search_query=SQL+DDL+DML+DCL+TCL+explained) |
-| 6  | [Joins, Subqueries & Views](#joins-subqueries--views) | [video](https://www.youtube.com/results?search_query=SQL+Joins+Subqueries+Views) |
-| 7  | [Normalization & Normal Forms](#normalization--normal-forms) | [video](https://www.youtube.com/results?search_query=DBMS+Normalization+Normal+Forms+1NF+2NF+3NF+BCNF) |
-| 8  | [Transactions & Concurrency](#transactions--concurrency) | [video](https://www.youtube.com/results?search_query=DBMS+Transactions+and+Concurrency+Control) |
-| 9  | [Indexing, Hashing & Query Optimization](#indexing-hashing--query-optimization) | [video](https://www.youtube.com/results?search_query=DBMS+Indexing+Hashing+Query+Optimization) |
-| 10 | [Security & Authorization](#security--authorization) | [video](https://www.youtube.com/results?search_query=DBMS+Security+and+Authorization) |
-| 11 | [Distributed Databases & NoSQL](#distributed-databases--nosql) | [video](https://www.youtube.com/results?search_query=Distributed+Databases+NoSQL+CAP+Theorem) |
-| 12 | [Miscellaneous & Practice](#miscellaneous--practice) | [video](https://www.youtube.com/results?search_query=DBMS+Triggers+Stored+Procedures+Practice+Questions) |
-| 13 | [Diagrams & Visual Aids](#diagrams--visual-aids) | [video](https://www.youtube.com/results?search_query=DBMS+ER+Diagrams+Normalization+Visuals) |
-| 14 | [Practice Questions](#practice-questions) | [video](https://www.youtube.com/results?search_query=DBMS+Interview+Questions+and+Answers+SQL) |
-| 15 | [Resources & References](#resources--references) | [video](https://www.youtube.com/results?search_query=Best+DBMS+Books+and+Learning+Resources) |
-| 16 | [Contributions](#contributions) | [video](https://www.youtube.com/results?search_query=How+to+Contribute+to+GitHub+Open+Source) |
-| 17 | [License](#license) | [video](https://www.youtube.com/results?search_query=MIT+License+explained) |
+Each chapter is represented by its corresponding file.  
+A direct [video] link (YouTube) is provided for each topic to help you learn visually.
+
+| #  | Topic File | &nbsp; | Video Link |
+|----|----------------------------------------------|-------|------------|
+| 1  | [01_DBMS_Intro.md](./01_DBMS_Intro.md)                       | &nbsp; | [video](https://www.youtube.com/results?search_query=DBMS+Introduction) |
+| 2  | [02_DBMS_Architecture.md](./02_DBMS_Architecture.md)         | &nbsp; | [video](https://www.youtube.com/results?search_query=DBMS+Architecture) |
+| 3  | [03_DBMS_Data_Models.md](./03_DBMS_Data_Models.md)           | &nbsp; | [video](https://www.youtube.com/results?search_query=DBMS+Data+Models) |
+| 4  | [04_DBMS_ER_Model.md](./04_DBMS_ER_Model.md)                 | &nbsp; | [video](https://www.youtube.com/results?search_query=DBMS+ER+Model) |
+| 5  | [05_DBMS_Relational_Model.md](./05_DBMS_Relational_Model.md) | &nbsp; | [video](https://www.youtube.com/results?search_query=DBMS+Relational+Model) |
+| 6  | [06_DBMS_SQL_Basics.md](./06_DBMS_SQL_Basics.md)             | &nbsp; | [video](https://www.youtube.com/results?search_query=DBMS+SQL+Basics) |
+| 7  | [07_DBMS_SQL_Joins_Subqueries_Views.md](./07_DBMS_SQL_Joins_Subqueries_Views.md) | &nbsp; | [video](https://www.youtube.com/results?search_query=DBMS+SQL+Joins+Subqueries+Views) |
+| 8  | [08_DBMS_Normalization.md](./08_DBMS_Normalization.md)       | &nbsp; | [video](https://www.youtube.com/results?search_query=DBMS+Normalization) |
+| 9  | [09_DBMS_Transactions_Concurrency.md](./09_DBMS_Transactions_Concurrency.md) | &nbsp; | [video](https://www.youtube.com/results?search_query=DBMS+Transactions+Concurrency) |
+| 10 | [10_DBMS_Indexing_Hashing_Query_Optimization.md](./10_DBMS_Indexing_Hashing_Query_Optimization.md) | &nbsp; | [video](https://www.youtube.com/results?search_query=DBMS+Indexing+Hashing+Query+Optimization) |
+| 11 | [11_DBMS_Security_Authorization.md](./11_DBMS_Security_Authorization.md) | &nbsp; | [video](https://www.youtube.com/results?search_query=DBMS+Security+Authorization) |
+| 12 | [12_DBMS_Distributed_NOSQL.md](./12_DBMS_Distributed_NOSQL.md) | &nbsp; | [video](https://www.youtube.com/results?search_query=Distributed+Databases+NoSQL) |
+| 13 | [13_DBMS_Miscellaneous_Practice.md](./13_DBMS_Miscellaneous_Practice.md) | &nbsp; | [video](https://www.youtube.com/results?search_query=DBMS+Practice+Questions) |
 
 ---
 
-## Introduction
+## 🧭 How to Use This Guide
 
-This repository provides a step-by-step, topic-wise DBMS interview guide, covering both theoretical concepts and practical SQL. Each section contains easy-to-understand summaries, visual diagrams, examples, interview tips, and commonly asked questions.  
-[video](https://www.youtube.com/results?search_query=DBMS+Introduction)
-
----
-
-## Core DBMS Concepts
-
-- **Architecture & Models:** Overview of DBMS architectures, types, and data models.  
-  [video](https://www.youtube.com/results?search_query=DBMS+Architecture+and+Models)
-- **ER Model:** Entities, relationships, ER diagrams, and mapping to relational schema.  
-  [video](https://www.youtube.com/results?search_query=DBMS+ER+Model+ER+Diagram)
-- **Relational Model:** Schema, tuples, attributes, keys, and integrity constraints.  
-  [video](https://www.youtube.com/results?search_query=DBMS+Relational+Model)
-- **SQL:** DDL, DML, DCL, TCL—syntax, examples, and best practices.  
-  [video](https://www.youtube.com/results?search_query=SQL+DDL+DML+DCL+TCL+explained)
-- **Joins, Subqueries & Views:** Different join types, subquery patterns, and view usage.  
-  [video](https://www.youtube.com/results?search_query=SQL+Joins+Subqueries+Views)
-- **Normalization:** 1NF, 2NF, 3NF, BCNF, higher normal forms, and their importance.  
-  [video](https://www.youtube.com/results?search_query=DBMS+Normalization+Normal+Forms+1NF+2NF+3NF+BCNF)
-- **Transactions & Concurrency:** ACID properties, transaction states, schedules, deadlocks.  
-  [video](https://www.youtube.com/results?search_query=DBMS+Transactions+and+Concurrency+Control)
-- **Indexing & Query Optimization:** Types of indexes, hashing, query plans and optimization strategies.  
-  [video](https://www.youtube.com/results?search_query=DBMS+Indexing+Hashing+Query+Optimization)
-- **Security & Authorization:** Privileges, authentication, SQL injection, RBAC, encryption.  
-  [video](https://www.youtube.com/results?search_query=DBMS+Security+and+Authorization)
-- **Distributed Databases & NoSQL:** CAP theorem, distributed data storage, NoSQL types, and use-cases.  
-  [video](https://www.youtube.com/results?search_query=Distributed+Databases+NoSQL+CAP+Theorem)
-- **Miscellaneous & Interview Practice:** Triggers, stored procedures, data warehousing, backup & recovery, sample questions.  
-  [video](https://www.youtube.com/results?search_query=DBMS+Triggers+Stored+Procedures+Practice+Questions)
-
-For detailed notes and examples, refer to the individual topic files in the repository.
+- **Step-by-step learning:** Start from the basics and move through each topic in order, or jump to any chapter as needed.
+- **Visual learning:** Use the [video] link in each row for the best YouTube lectures and tutorials on the topic.
+- **Practice:** Each file contains explanations, diagrams, example queries, and interview-style questions.
+- **Quick revision:** Use the Table of Contents for rapid navigation and last-minute review.
+- **Interview focus:** Every chapter highlights common interview questions and practical scenarios.
 
 ---
 
-## Diagrams & Visual Aids
+## ✨ Features
 
-- ASCII and graphical ER diagrams  
-- Relational schema representations  
-- Normalization steps with tables  
-- Transaction state diagrams  
-- CAP theorem triangle  
-- Indexing and query plan illustrations  
-[video](https://www.youtube.com/results?search_query=DBMS+ER+Diagrams+Normalization+Visuals)
+- **Complete Syllabus:** Covers all major DBMS topics required for interviews and academics.
+- **Practice-Oriented:** Includes solved examples, practice questions, and case studies.
+- **Visual Diagrams:** ER diagrams, normalization steps, transaction flows, and more.
+- **Pro Tips:** Important points, common mistakes, and proven strategies for interview success.
 
 ---
 
-## Practice Questions
-
-Each topic includes:
-- **Definition-based questions**
-- **Scenario-based SQL queries**
-- **Difference and comparison questions**
-- **Advanced conceptual challenges**
-
-See the [13_dbms_miscellaneous_practice.md](13_dbms_miscellaneous_practice.md) file for a full list of sample interview questions.  
-[video](https://www.youtube.com/results?search_query=DBMS+Interview+Questions+and+Answers+SQL)
-
----
-
-## Resources & References
+## 📚 Resources & References
 
 - **Textbooks:** Korth & Silberschatz, Navathe, Elmasri
 - **Official Documentation:** [MySQL](https://dev.mysql.com/doc/), [PostgreSQL](https://www.postgresql.org/docs/), [MongoDB](https://docs.mongodb.com/)
 - **Online Platforms:** [GeeksforGeeks - DBMS](https://www.geeksforgeeks.org/dbms/), [LeetCode SQL](https://leetcode.com/problemset/database/)
 - **Visualization Tools:** [DBDiagram.io](https://dbdiagram.io/)
-[video](https://www.youtube.com/results?search_query=Best+DBMS+Books+and+Learning+Resources)
 
 ---
 
-## Contributions
+## 🛠️ Contributing
 
-Do you have suggestions, corrections, or improvements? **Contributions are welcome!**
+Your suggestions, corrections, and improvements are welcome!
 
-1. Fork this repository
-2. Create a new branch: `git checkout -b feature/your-topic`
-3. Add your notes, corrections, or enhancements
-4. Commit and push your changes
-5. Open a Pull Request with a clear description
+1. **Fork** this repository
+2. **Create a branch:** `git checkout -b feature/your-topic`
+3. **Commit** your changes
+4. **Push** to the branch
+5. **Open a Pull Request**
 
-**Please ensure your content is clear, well-structured, and plagiarism-free.**  
-[video](https://www.youtube.com/results?search_query=How+to+Contribute+to+GitHub+Open+Source)
+**Please ensure your content is clear, well-structured, and plagiarism-free.**
 
 ---
 
-## License
+## 📬 Feedback & Support
 
-This repository is licensed under the MIT License.  
-[video](https://www.youtube.com/results?search_query=MIT+License+explained)
+- Found a typo? Have an idea? [Open an issue](https://github.com/sinha-19/C-Interview-Guide/issues).
+- Need help with a topic? Start a discussion!
+
+---
+
+## 🏆 License
+
+This repository is licensed under the MIT License.
 
 ---
 
